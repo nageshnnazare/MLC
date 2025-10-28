@@ -46,7 +46,7 @@ int main(int argc, char *argv[])
     weight -=  dw * learning_rate;
     bias -=  db * learning_rate;
   }
-  printf("w: %f, b: %f, f(5) = %f\n", weight, bias, 5*weight + bias);
+  printf("w: %f, b: %f, f(5) = %f\n", weight, bias, (5*weight + bias));
 
   return 0;
 }
